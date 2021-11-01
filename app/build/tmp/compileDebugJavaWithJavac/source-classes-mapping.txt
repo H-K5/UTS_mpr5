@@ -1,0 +1,16 @@
+com/example/uts_066/InfoProgram.java
+ com.example.uts_066.InfoProgram
+ com.example.uts_066.InfoProgram$1
+com/example/uts_066/Page2.java
+ com.example.uts_066.Page2
+ com.example.uts_066.Page2$1
+ com.example.uts_066.Page2$2
+ com.example.uts_066.Page2$3
+com/example/uts_066/MainActivity.java
+ com.example.uts_066.MainActivity
+ com.example.uts_066.MainActivity$1
+ com.example.uts_066.MainActivity$2
+com/example/uts_066/BuildConfig.java
+ com.example.uts_066.BuildConfig
+com/example/uts_066/Page3.java
+ com.example.uts_066.Page3
