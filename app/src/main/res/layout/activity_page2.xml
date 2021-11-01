@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page2">
+    <TextView
+        android:id="@+id/Nana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama karakter : "
+        android:textSize="28dp"
+        android:padding="10dp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/userNa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textSize="28dp"
+        android:padding="10dp"
+        android:layout_toRightOf="@id/Nana"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/userGen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender : "
+        android:textSize="28dp"
+        android:padding="10dp"
+        android:layout_below="@id/Nana"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/userGe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gender"
+        android:textSize="28dp"
+        android:padding="10dp"
+        android:layout_toRightOf="@id/userGen"
+        android:layout_below="@id/userNa"
+        android:textAlignment="center" />
+    <ScrollView
+        android:id="@+id/scrV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userGen">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/charGendMale"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:src="@drawable/elfmale" />
+            <RadioButton
+                android:layout_below="@id/charGendMale"
+                android:id="@+id/RadioMale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Male"/>
+
+            <ImageView
+                android:id="@+id/charGendFemale"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_below="@id/RadioMale"
+                android:src="@drawable/elffemale" />
+            <RadioButton
+                android:layout_below="@id/charGendFemale"
+                android:id="@+id/RadioFemale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Female"/>
+            <Button
+                android:layout_below="@id/RadioFemale"
+                android:id="@+id/butpage3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textSize="24dp"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

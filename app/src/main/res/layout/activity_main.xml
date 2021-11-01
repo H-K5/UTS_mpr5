@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/bar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Welcome to"
+        android:textAlignment="center"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/bar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bar1"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Aplikasi Char Builder"
+        android:textAlignment="center"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/bar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bar2"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Silahkan Masukkan Nama"
+        android:textAlignment="center"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/barNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bar3"
+        android:layout_marginTop="10dp"
+        android:hint="Nama Karakter"
+        android:gravity="center"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/barTentang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/barNama"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Tentang Program"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/butpage2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/barNama"
+        android:text="Start"
+        android:textSize="24dp" />
+
+</RelativeLayout>
